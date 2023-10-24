@@ -248,7 +248,7 @@ export default function Home() {
               modalSize={"compact"}
             />
           </div>
-          <div className=" grid grid-cols-12 p-4 items-center mt-0 xl:mt-40">
+          <div className=" grid grid-cols-12 p-4 items-center mt-0 xl:mt-40 lg:p-12">
             <div className="col-span-full xl:col-span-6 min-h-[20vh] xl:min-h-0">
               <p className="text-4xl lg:text-6xl mt-40 xl:mt-0 text-center xl:text-left">
                 Build Faster on the largest <br />
@@ -275,10 +275,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <p className="text-4xl lg:text-5xl p-4 mt-20 font-bold">
+        <p className="text-4xl lg:text-5xl p-4 mt-20 font-bold lg:p-12">
           Configure, Build and Deploy
         </p>
-        <div className="w-full flex flex-col gap-8 items-start p-8 pb-20">
+        <div className="w-full flex flex-col gap-8 items-start p-8 lg:p-16 pb-20">
           {contractCategories.map((category) => (
             <div
               key={category.title}
